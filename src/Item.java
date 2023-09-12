@@ -277,6 +277,7 @@ public class Item
     public static Item plateGold = (new ItemArmor(59, 1, 4, 1)).setIconCoord(4, 1).setItemName("chestplateGold");
     public static Item legsGold = (new ItemArmor(60, 1, 4, 2)).setIconCoord(4, 2).setItemName("leggingsGold");
     public static Item bootsGold = (new ItemArmor(61, 1, 4, 3)).setIconCoord(4, 3).setItemName("bootsGold");
+    public static Item helmetNeoprene = (new ItemArmor(104, 3, 5, 0)).setIconCoord(12, 6).setItemName("helmetNeoprene");
     public static Item flint = (new Item(62)).setIconCoord(6, 0).setItemName("flint");
     public static Item porkRaw = (new ItemFood(63, 3, true)).setIconCoord(7, 5).setItemName("porkchopRaw");
     public static Item porkCooked = (new ItemFood(64, 8, true)).setIconCoord(8, 5).setItemName("porkchopCooked");

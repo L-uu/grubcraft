@@ -452,6 +452,14 @@ public class ChunkProviderGenerate
             (new WorldGenMinable(Block.oreLapis.blockID, 6)).generate(worldObj, rand, k7, l10, k13);
         }
 
+        for(int m1 = 0; m1 < 20; m1++)
+        {
+            int n1 = k + rand.nextInt(16);
+            int n2 = rand.nextInt(128);
+            int n3 = l + rand.nextInt(16);
+            (new WorldGenMinable(Block.neoprene.blockID, 16)).generate(worldObj, rand, n1, n2, n3);
+        }
+
         d = 0.5D;
         int k4 = (int)((mobSpawnerNoise.func_806_a((double)k * d, (double)l * d) / 8D + rand.nextDouble() * 4D + 4D) / 3D);
         int l7 = 0;

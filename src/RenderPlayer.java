@@ -325,7 +325,7 @@ public class RenderPlayer extends RenderLiving
     private ModelBiped modelArmorChestplate;
     private ModelBiped modelArmor;
     private static final String armorFilenamePrefix[] = {
-        "cloth", "chain", "iron", "diamond", "gold"
+        "cloth", "chain", "iron", "diamond", "gold", "neoprene"
     };
 
 }

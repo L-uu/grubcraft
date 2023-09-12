@@ -191,6 +191,10 @@ label0:
         if(i == 10)
         {
             return new ItemStack(Item.dyePowder, 1, 3);
+        }
+        if(i == 11)
+        {
+            return new ItemStack(Block.neoprene, random.nextInt(8) + 1);
         } else
         {
             return null;
